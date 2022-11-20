@@ -2,7 +2,7 @@
   font-family: D-DIN;
   font-style: normal;
   font-weight: normal;
-  src: url('D-DIN.ttfs') .format('opentype');
+  src: url('D-DIN.ttf') .format('opentype');
 }
 
 html {

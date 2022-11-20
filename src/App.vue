@@ -40,7 +40,7 @@ import './style/app.css';
         <p>14:00-17:00 主论坛：设计智造·协同创新（下）</p>
         <p>
           <span>12月3日</span><span>余量:10/20</span>
-          <span>已选<img src="ok.svg" /></span>
+          <span>已选<img src="/ok.svg" /></span>
         </p>
       </div>
       <!-- 此处修改active class就行 -->
@@ -59,7 +59,7 @@ import './style/app.css';
         <p>
           <span>12月4日</span>
           <span>余量:10/20</span>
-          <span>已选<img src="ok.svg" /></span>
+          <span>已选<img src="/ok.svg" /></span>
         </p>
       </div>
     </div>
@@ -83,31 +83,31 @@ import './style/app.css';
         <p>行分论坛一：国际设计政策研究</p>
         <p>
           <span>平3号馆3楼新闻发布厅</span><span>10/50</span>
-          <span><img src="ok.svg" /></span>
+          <span><img src="/ok.svg" /></span>
         </p>
       </div>
       <div class="sub-item">
         <p>平行分论坛二：创新设计管理研究</p>
         <p>
-          <span>3号馆2楼宴会厅C201A</span><span>10/50</span> <span><img src="ok.svg" /></span>
+          <span>3号馆2楼宴会厅C201A</span><span>10/50</span> <span><img src="/ok.svg" /></span>
         </p>
       </div>
       <div class="sub-item">
         <p>平行分论坛三：文化创新与数化感知</p>
         <p>
-          <span>3号馆2楼宴会C2016</span><span>10/50</span> <span><img src="ok.svg" /></span>
+          <span>3号馆2楼宴会C2016</span><span>10/50</span> <span><img src="/ok.svg" /></span>
         </p>
       </div>
       <div class="sub-item">
         <p>平行分论坛四：智能制造与创新设计</p>
         <p>
-          <span>3号馆1楼多功能101A</span><span>10/50</span> <span><img src="ok.svg" /></span>
+          <span>3号馆1楼多功能101A</span><span>10/50</span> <span><img src="/ok.svg" /></span>
         </p>
       </div>
       <div class="sub-item">
         <p>平行分论坛五：网络社会与服务系统</p>
         <p>
-          <span>3号馆1楼多功能101B</span><span>10/50</span> <span><img src="ok.svg" /></span>
+          <span>3号馆1楼多功能101B</span><span>10/50</span> <span><img src="/ok.svg" /></span>
         </p>
       </div>
     </div>

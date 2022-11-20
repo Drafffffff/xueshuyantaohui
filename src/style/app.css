@@ -36,14 +36,14 @@ html {
   font-size: 11px;
   line-height: 16px;
   color: var(--sc);
-  letter-spacing: 1px;
+  letter-spacing: 0.2px;
 }
 
 .title-container .location {
   font-size: 11px;
   line-height: 16px;
   color: var(--sc);
-  letter-spacing: 1px;
+  letter-spacing: 0.2px;
 }
 
 .card-container {

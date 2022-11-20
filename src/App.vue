@@ -65,6 +65,11 @@ import './style/app.css';
     </div>
 
     <!-- 此处需要vue if -->
+    <!-- 此处需要vue if -->
+    <!-- 此处需要vue if -->
+    <!-- 此处需要vue if -->
+    <!-- 此处需要vue if -->
+    <!-- 此处需要vue if -->
     <div class="sub-card-container container">
       <!-- 此处修改active class就行 -->
       <!-- 此处修改active class就行 -->

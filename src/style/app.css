@@ -1,0 +1,254 @@
+@font-face {
+  font-family: D-DIN;
+  font-style: normal;
+  font-weight: normal;
+  src: url('D-DIN.ttfs') .format('opentype');
+}
+
+html {
+  font-family: D-DIn, 'PingFang SC', 'Microsoft Yahei', sans-serif;
+
+  --mc: #e2be86;
+  --sc: #b5b5b5;
+  --mb: #222;
+}
+
+#app {
+  max-width: 580px;
+}
+
+.container {
+  padding: 0 25px;
+  margin: auto;
+}
+
+.title-container {
+  padding-top: 20px;
+}
+
+.title-container .title {
+  font-size: 25px;
+  line-height: 37.5px;
+}
+
+.title-container .date {
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 16px;
+  color: var(--sc);
+  letter-spacing: 1px;
+}
+
+.title-container .location {
+  font-size: 11px;
+  line-height: 16px;
+  color: var(--sc);
+  letter-spacing: 1px;
+}
+
+.card-container {
+  padding-top: 40px;
+}
+
+.card-container .sub-title {
+  font-size: 16px;
+}
+
+.card-container .card {
+  padding: 18px;
+  margin-top: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+  background-color: var(--mb);
+  border-radius: 5px;
+}
+
+.card-container .card p:nth-child(1) {
+  font-size: 15px;
+}
+
+.card-container .card p:nth-child(2) {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card-container .card p:nth-child(3) {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: light;
+  color: var(--mc);
+  letter-spacing: 0;
+}
+
+.card-container .card p:nth-child(4) {
+  font-size: 13px;
+  font-weight: light;
+  color: var(--mc);
+  letter-spacing: 0;
+}
+
+.card-container .card p:nth-child(5) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+  font-size: 13px;
+  font-size: 14px;
+  font-weight: light;
+  color: var(--mc);
+}
+
+.sub-card-container.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sub-item {
+  flex-basis: calc(50% - 5px);
+  height: 91px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: var(--mb);
+  border-radius: 5px;
+}
+
+.sub-item > p:nth-child(1) {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.sub-item > p:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 11px;
+  font-weight: light;
+}
+
+.sub-item > p:nth-child(2) > span:nth-child(2) {
+  color: var(--mc);
+}
+
+.sub-item.active {
+  background-color: var(--mc);
+}
+
+.sub-item.active > p:nth-child(2) > span:nth-child(2) {
+  display: none;
+}
+
+.sub-item.active > p:nth-child(2) > span:nth-child(3) {
+  display: inline;
+}
+
+.sub-item > p:nth-child(2) > span:nth-child(3) {
+  display: none;
+}
+
+.info-container {
+  padding-top: 40px;
+}
+
+.info-container .form {
+  display: flex;
+  flex-direction: row;
+  padding: 6px 18px;
+  margin-top: 25px;
+  background-color: var(--mb);
+  border-radius: 5px;
+}
+
+.info-container .form .form-info {
+  flex: 1.2;
+}
+
+.info-container .form .form-input {
+  flex: 3;
+}
+
+.info-container .form .form-info > p {
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  border-bottom: 0.5px rgb(153 153 153 / 25%) solid;
+}
+
+.info-container .form .form-input > input {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  background: none;
+  border: none;
+  caret-color: white;
+  border-bottom: 0.5px rgb(153 153 153 / 25%) solid;
+}
+
+.info-container .form .form-input > input:last-child {
+  border-bottom: none;
+}
+
+.info-container .form .form-info > p:last-child {
+  border-bottom: none;
+}
+
+.info-container .form .form-input > input:focus {
+  outline: none;
+}
+
+.info-container .form .form-input > input:placeholder {
+  font-size: 14px;
+  color: var(--sc);
+}
+
+.btn-submit {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.btn-submit > div {
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  user-select: none;
+  background-color: var(--mc);
+  border-radius: 5px;
+}
+
+.card.active {
+  color: white !important;
+  background-color: var(--mc);
+}
+
+.card-container .card.active p:nth-child(4) {
+  color: white;
+}
+
+.card-container .card.active p:nth-child(3) {
+  color: white;
+}
+
+.card-container .card.active p:nth-child(5) {
+  color: white;
+}
+
+.card.active p:nth-child(5) > span:nth-child(2) {
+  display: none;
+}
+
+.card.active p:nth-child(5) > span:nth-child(3) {
+  display: inline;
+}
+
+.card.active p:nth-child(5) > span:nth-child(3) img {
+  margin-left: 10px;
+  transform: translateY(2px);
+}
+
+.card p:nth-child(5) > span:nth-child(3) {
+  display: none;
+}
